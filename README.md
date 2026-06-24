@@ -106,6 +106,12 @@ You can view the live version of this project here:
 
 https://im-princesharma.github.io/html-webpage-beginner
 
+## How to Run This Project
+
+1. Download or clone the repository
+2. Open the project folder
+3. Open `index.html` in any web browser
+
 ## Future Improvements
 
 Planned improvements for upcoming projects include:
@@ -114,6 +120,14 @@ Planned improvements for upcoming projects include:
 - Implementing JavaScript for interactivity
 - Learning responsive web design
 - Building full-stack web development projects
+
+## Project Highlights
+
+- Built using pure HTML
+- Multi-page website structure
+- Navigation between pages
+- Beginner-friendly project
+- First step toward frontend development
 
 ## Author
 
