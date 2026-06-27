@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Project-Active-blue)
     
 This repository contains a beginner-level multi-page website created while learning the fundamentals of web development using HTML.
-
+ 
 ## Project Overview
  
 This project demonstrates the basic structure of a simple website using HTML.  
