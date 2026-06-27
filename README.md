@@ -14,7 +14,7 @@ It includes multiple pages connected through navigation links to understand how 
 The goal of this project is to build a strong foundation in web development by practicing HTML page structure, hyperlinks, and basic content organization.
   
 ## Website Preview
-
+  
 ### Home Page
 ![Home Page](images/homepage-preview.png)
 
