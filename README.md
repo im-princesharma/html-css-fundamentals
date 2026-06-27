@@ -3,7 +3,7 @@
 ![HTML](https://img.shields.io/badge/HTML-Project-orange)
 ![Beginner](https://img.shields.io/badge/Level-Beginner-green)
 ![Status](https://img.shields.io/badge/Project-Active-blue)
-    
+     
 This repository contains a beginner-level multi-page website created while learning the fundamentals of web development using HTML.
    
 ## Project Overview
