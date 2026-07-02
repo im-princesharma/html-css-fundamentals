@@ -1,0 +1,216 @@
+/*
+==================================================
+Title   : Responsive Landing Page
+
+Purpose :
+Demonstrate responsive webpage design.
+
+Working :
+1. Create Navigation.
+2. Create Hero Section.
+3. Create Responsive Cards.
+4. Apply Flexbox.
+5. Apply Media Queries.
+
+Learning Outcome :
+• Learn Responsive Design.
+• Understand Media Queries.
+• Build Mobile-Friendly Websites.
+
+Author      : Prince Sharma
+Repository  : html-css-fundamentals
+Module      : 11-responsive-design
+==================================================
+*/
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:Arial, Helvetica, sans-serif;
+
+background:#f4f4f4;
+
+}
+
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 60px;
+
+background:#2c3e50;
+
+color:white;
+
+}
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+
+gap:20px;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:white;
+
+}
+
+.hero{
+
+padding:80px;
+
+text-align:center;
+
+background:#3498db;
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+margin-bottom:25px;
+
+}
+
+button{
+
+padding:15px 30px;
+
+border:none;
+
+background:white;
+
+color:#3498db;
+
+font-size:18px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+
+.features{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+padding:50px;
+
+flex-wrap:wrap;
+
+}
+
+.card{
+
+background:white;
+
+padding:25px;
+
+width:300px;
+
+border-radius:10px;
+
+box-shadow:0 5px 10px rgba(0,0,0,.15);
+
+text-align:center;
+
+}
+
+/* Tablet */
+
+@media(max-width:768px){
+
+nav{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.hero{
+
+padding:50px 20px;
+
+}
+
+.hero h1{
+
+font-size:35px;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:480px){
+
+nav ul{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:28px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+.features{
+
+padding:20px;
+
+}
+
+.card{
+
+width:100%;
+
+}
+
+}
