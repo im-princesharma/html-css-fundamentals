@@ -1,0 +1,171 @@
+/*
+==================================================
+Title   : CSS Typography
+
+Purpose :
+Demonstrate various typography properties
+available in CSS.
+
+Working :
+1. Apply different font families.
+2. Modify font size.
+3. Change font weight.
+4. Apply italic styling.
+5. Align text.
+6. Control spacing.
+7. Adjust line height.
+8. Transform text.
+9. Add text shadow.
+
+Learning Outcome :
+• Learn CSS typography.
+• Improve webpage readability.
+• Create visually attractive text.
+
+Author      : Prince Sharma
+Repository  : html-css-fundamentals
+Module      : 04-typography
+==================================================
+*/
+
+/* Universal Selector */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+/* Body */
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#f5f5f5;
+
+    padding:40px;
+
+}
+
+/* Main Heading */
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    color:#2c3e50;
+
+}
+
+/* Introduction */
+
+.intro{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:#555;
+
+}
+
+/* Section */
+
+section{
+
+    background:white;
+
+    padding:20px;
+
+    margin:25px 0;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 10px rgba(0,0,0,0.10);
+
+}
+
+/* Font Family */
+
+.font-family{
+
+    font-family:Georgia, serif;
+
+}
+
+/* Font Size */
+
+.font-size{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+/* Font Style */
+
+.font-style{
+
+    font-style:italic;
+
+}
+
+/* Text Alignment */
+
+.text-align{
+
+    text-align:center;
+
+}
+
+/* Letter & Word Spacing */
+
+.spacing{
+
+    letter-spacing:3px;
+
+    word-spacing:8px;
+
+}
+
+/* Line Height */
+
+.line-height{
+
+    line-height:2;
+
+}
+
+/* Text Transform */
+
+.transform{
+
+    text-transform:uppercase;
+
+    font-weight:bold;
+
+}
+
+/* Text Shadow */
+
+.shadow{
+
+    text-shadow:2px 2px 5px gray;
+
+    color:#3498db;
+
+}
+
+hr{
+
+    margin:20px 0;
+
+}
