@@ -1,0 +1,159 @@
+/*
+==================================================
+Title   : CSS Cards
+
+Purpose :
+Create reusable responsive card components.
+
+Working :
+1. Create Card Layout.
+2. Style Images.
+3. Apply Shadows.
+4. Apply Border Radius.
+5. Apply Hover Animation.
+6. Style Buttons.
+
+Learning Outcome :
+• Learn Card Components.
+• Practice Flexbox.
+• Build modern webpage layouts.
+
+Author      : Prince Sharma
+Repository  : html-css-fundamentals
+Module      : 09-cards
+==================================================
+*/
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:Arial, Helvetica, sans-serif;
+
+background:#f4f4f4;
+
+padding:40px;
+
+}
+
+h1{
+
+text-align:center;
+
+margin-bottom:20px;
+
+color:#2c3e50;
+
+}
+
+.intro{
+
+text-align:center;
+
+margin-bottom:40px;
+
+color:#555;
+
+}
+
+/* Card Container */
+
+.card-container{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+/* Card */
+
+.card{
+
+width:300px;
+
+background:white;
+
+border-radius:12px;
+
+overflow:hidden;
+
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+transition:.3s;
+
+}
+
+/* Hover */
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 30px rgba(0,0,0,.25);
+
+}
+
+.card img{
+
+width:100%;
+
+display:block;
+
+}
+
+.card h2{
+
+margin:20px;
+
+color:#2c3e50;
+
+}
+
+.card p{
+
+margin:0 20px 20px;
+
+line-height:1.6;
+
+color:#555;
+
+}
+
+.card button{
+
+margin:0 20px 20px;
+
+padding:12px 20px;
+
+border:none;
+
+background:#3498db;
+
+color:white;
+
+border-radius:6px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.card button:hover{
+
+background:#2980b9;
+
+}
