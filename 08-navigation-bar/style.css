@@ -1,0 +1,155 @@
+/*
+==================================================
+Title   : CSS Navigation Bar
+
+Purpose :
+Demonstrate a responsive navigation bar
+using Flexbox.
+
+Working :
+1. Create Navigation Container.
+2. Align Logo and Menu.
+3. Apply Flexbox Layout.
+4. Add Hover Effects.
+5. Style Hero Section.
+
+Learning Outcome :
+• Learn Navigation Bar Design.
+• Understand Flexbox Alignment.
+• Create responsive website headers.
+
+Author      : Prince Sharma
+Repository  : html-css-fundamentals
+Module      : 08-navigation-bar
+==================================================
+*/
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:Arial, Helvetica, sans-serif;
+
+background:#f5f5f5;
+
+}
+
+/* Navigation */
+
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:#2c3e50;
+
+padding:18px 60px;
+
+}
+
+.logo{
+
+font-size:28px;
+
+font-weight:bold;
+
+color:white;
+
+}
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+
+gap:25px;
+
+}
+
+nav ul li a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+color:#f39c12;
+
+}
+
+/* Hero Section */
+
+.hero{
+
+text-align:center;
+
+padding:120px 30px;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+margin-bottom:20px;
+
+color:#2c3e50;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+margin-bottom:30px;
+
+color:#555;
+
+}
+
+button{
+
+padding:15px 30px;
+
+font-size:18px;
+
+background:#3498db;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+background:#2980b9;
+
+transform:scale(1.05);
+
+}
